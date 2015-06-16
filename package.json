@@ -1,0 +1,52 @@
+{
+  "name": "winch",
+  "version": "0.0.0",
+  "description": "Hoist's Winch - Serves correct files based on current request domain/host",
+  "main": "app.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "config": {
+    "travis-cov": {
+      "threshold": 50
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/hoist/winch"
+  },
+  "author": "Hoist Apps Ltd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoist/winch/issues"
+  },
+  "dependencies": {
+    "config": "^1.0.0",
+    "express": "~3.4.6",
+    "extend": "^1.3.0",
+    "heapdump": "^0.2.10",
+    "hoist-core": "git+ssh://git@github.com:hoist/hoist-core",
+    "kue": "^0.8.3",
+    "lodash": "^2.4.1",
+    "loggly": "^1.0.8",
+    "newrelic": "^1.8.1",
+    "node-static": "git://github.com/hoist/node-static",
+    "redis": "^0.11.0",
+    "uuid": "^1.4.1"
+  },
+  "devDependencies": {
+    "blanket": "^1.1.6",
+    "chai": "^1.9.1",
+    "chai-as-promised": "^4.1.1",
+    "glob": "^4.0.4",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-mocha-test": "^0.11.0",
+    "load-grunt-tasks": "^0.6.0",
+    "request": "^2.39.0",
+    "sinon": "^1.10.3",
+    "supertest": "^0.13.0",
+    "time-grunt": "^0.4.0",
+    "travis-cov": "^0.2.5"
+  }
+}
